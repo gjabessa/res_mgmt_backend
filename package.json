@@ -11,6 +11,7 @@
     "node": ">=8.9"
   },
   "scripts": {
+    "tsc": "tsc",
     "build:apidocs": "lb-apidocs",
     "build": "lb-tsc es2017 --outDir dist",
     "build:watch": "lb-tsc --watch",
