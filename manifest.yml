@@ -1,0 +1,8 @@
+applications:
+- name: restaurant-app-cloud
+  disk_quota: 1G
+  instances: 1
+  memory: 64M
+  routes:
+  - route: restaurant-app-cloud.eu-gb.mybluemix.net
+  stack: cflinuxfs3
