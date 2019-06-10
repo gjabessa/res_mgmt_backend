@@ -1,0 +1,66 @@
+[
+    {
+        "id": "5cf8515aeb49351c48a5707f",
+        "name": "burger",
+        "description": "A hamburger (short: burger) is a sandwich consisting of one or more cooked patties of ground meat, usually beef, placed inside a sliced bread roll or bun.",
+        "image": "food/MainCourse/burger.jpeg",
+        "image_large": "food/MainCourse/gif/makingofburger.gif",
+        "price": 80
+    },
+    {
+        "id": "5cfc62dbf450c84554953526",
+        "name": "Club Sandwich",
+        "description": "Description about clubsandwich",
+        "image": "food/maincourse/clubsandwich.jpeg",
+        "image_large": "food/maincourse/gif/makingofburger.gif",
+        "price": 60
+    },
+    {
+        "id": "5cfc6336f450c84554953527",
+        "name": "Pizza",
+        "description": "Pizza is a savory dish of Italian origin, consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and various other ingredients baked at a high temperature, traditionally in a wood-fired oven. Wikipedia",
+        "image": "food/maincourse/pizza.jpg",
+        "image_large": "food/maincourse/gif/Pizza.gif",
+        "price": 70
+    },
+    {
+        "id": "5cfc63d7f450c84554953528",
+        "name": "hamnveg",
+        "description": "Pizza is a savory dish of Italian origin, consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and various other ingredients baked at a high temperature, traditionally in a wood-fired oven. Wikipedia",
+        "image": "food/maincourse/hamnveg.jpg",
+        "image_large": "food/maincourse/gif/makingofburger.gif",
+        "price": 70
+    },
+    {
+        "id": "5cfc63f4f450c84554953529",
+        "name": "macaroni",
+        "description": "Pizza is a savory dish of Italian origin, consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and various other ingredients baked at a high temperature, traditionally in a wood-fired oven. Wikipedia",
+        "image": "food/maincourse/macaroni.jpg",
+        "image_large": "food/maincourse/gif/makingofburger.gif",
+        "price": 70
+    },
+    {
+        "id": "5cfc641df450c8455495352a",
+        "name": "Mixed salad",
+        "description": "Pizza is a savory dish of Italian origin, consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and various other ingredients baked at a high temperature, traditionally in a wood-fired oven. Wikipedia",
+        "image": "food/maincourse/mixedsalad.jpg",
+        "image_large": "food/maincourse/gif/makingofburger.gif",
+        "price": 70
+    },
+    {
+        "id": "5cfc6438f450c8455495352b",
+        "name": "pasta",
+        "description": "Pizza is a savory dish of Italian origin, consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and various other ingredients baked at a high temperature, traditionally in a wood-fired oven. Wikipedia",
+        "image": "food/maincourse/pasta.jpg",
+        "image_large": "food/maincourse/gif/makingofburger.gif",
+        "price": 70
+    },
+    {
+        "id": "5cfc6498f450c8455495352c",
+        "name": "soup",
+        "description": "Pizza is a savory dish of Italian origin, consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and various other ingredients baked at a high temperature, traditionally in a wood-fired oven. Wikipedia",
+        "image": "food/maincourse/soup.jpg",
+        "image_large": "food/maincourse/gif/makingofburger.gif",
+        "price": 70
+    }
+]

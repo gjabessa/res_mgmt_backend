@@ -1,0 +1,34 @@
+[
+    {
+        "id": "5cf84f22eb49351c48a5707b",
+        "name": "Pancake",
+        "price": 18,
+        "image": "food/breakfast/Pancake.jpg",
+        "image_large": "food/breakfast/gif/SunnySideUp.gif",
+        "description": "A pancake is a flat cake, often thin and round, prepared from a starch-based batter that may contain eggs, milk and butter and cooked on a hot surface such as a griddle or frying pan, often frying with oil or butter. Wikipedia"
+    },
+    {
+        "id": "5cf84fe9eb49351c48a5707c",
+        "name": "Oatmeal",
+        "price": 20,
+        "image": "food/breakfast/Oatmeal.jpg",
+        "image_large": "food/breakfast/gif/SunnySideUp.gif",
+        "description": "Oatmeal is a type of coarse flour made of hulled oat grains – groats – that have either been milled, steel-cut, or rolled. Ground oats are also called 'white oats'. Steel-cut oats are known as 'coarse oatmeal' or 'Irish oatmeal' or 'pinhead oats'. Wikipedia"
+    },
+    {
+        "id": "5cf8502ceb49351c48a5707d",
+        "name": "Waffle",
+        "price": 25,
+        "image": "food/breakfast/Waffle.jpg",
+        "image_large": "food/breakfast/gif/SunnySideUp.gif",
+        "description": "A waffle is a dish made from leavened batter or dough that is cooked between two plates that are patterned to give a characteristic size, shape, and surface impression. There are many variations based on the type of waffle iron and recipe used. Wikipedia"
+    },
+    {
+        "id": "5cf85091eb49351c48a5707e",
+        "name": "French Toast",
+        "price": 20,
+        "image": "food/breakfast/frenchtoast.jpg",
+        "image_large": "food/breakfast/gif/SunnySideUp.gif",
+        "description": "French Toast is a dish made of bread soaked in eggs and milk, then fried. Alternative names and variants include eggy bread Bombay toast, German toast, gypsy toast, poor knights, Eggs-oh-Lay and Torrija. Wikipedia"
+    }
+]

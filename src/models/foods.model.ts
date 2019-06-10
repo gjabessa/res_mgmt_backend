@@ -18,6 +18,21 @@ export class Foods extends Entity {
   })
   image?: string;
 
+  @property({
+    type: 'string',
+  })
+  image_large?: string;
+
+  @property({
+    type: 'number',
+  })
+  price?: number;
+
+  @property({
+    type: 'string',
+  })
+  description?: string;
+
 
   constructor(data?: Partial<Foods>) {
     super(data);

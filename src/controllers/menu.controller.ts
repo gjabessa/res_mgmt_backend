@@ -16,20 +16,20 @@ import {
   del,
   requestBody,
 } from '@loopback/rest';
-import {Foods} from '../models';
-import {FoodsRepository} from '../repositories';
+import { Foods } from '../models';
+import { FoodsRepository } from '../repositories';
 
 export class MenuController {
   constructor(
     @repository(FoodsRepository)
-    public foodsRepository : FoodsRepository,
-  ) {}
+    public foodsRepository: FoodsRepository,
+  ) { }
 
   @post('/foods', {
     responses: {
       '200': {
         description: 'Foods model instance',
-        content: {'application/json': {schema: {'x-ts-type': Foods}}},
+        content: { 'application/json': { schema: { 'x-ts-type': Foods } } },
       },
     },
   })
@@ -41,7 +41,7 @@ export class MenuController {
     responses: {
       '200': {
         description: 'Foods model count',
-        content: {'application/json': {schema: CountSchema}},
+        content: { 'application/json': { schema: CountSchema } },
       },
     },
   })
@@ -51,13 +51,13 @@ export class MenuController {
     return await this.foodsRepository.count(where);
   }
 
-  @get('/foods', {
+  @get('/dinner', {
     responses: {
       '200': {
         description: 'Array of Foods model instances',
         content: {
           'application/json': {
-            schema: {type: 'array', items: {'x-ts-type': Foods}},
+            schema: { type: 'array', items: { 'x-ts-type': Foods } },
           },
         },
       },
@@ -73,7 +73,7 @@ export class MenuController {
     responses: {
       '200': {
         description: 'Foods PATCH success count',
-        content: {'application/json': {schema: CountSchema}},
+        content: { 'application/json': { schema: CountSchema } },
       },
     },
   })
@@ -88,7 +88,7 @@ export class MenuController {
     responses: {
       '200': {
         description: 'Foods model instance',
-        content: {'application/json': {schema: {'x-ts-type': Foods}}},
+        content: { 'application/json': { schema: { 'x-ts-type': Foods } } },
       },
     },
   })

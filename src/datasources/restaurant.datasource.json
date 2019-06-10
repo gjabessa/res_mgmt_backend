@@ -1,11 +1,11 @@
 {
   "name": "restaurant",
   "connector": "mongodb",
-  "url": "mongodb://geleta:123456r@ds229826.mlab.com:29826/restaurant",
-  "host": "ds229826.mlab.com",
-  "port": 29826,
-  "user": "geleta",
-  "password": "123456r",
-  "database": "123456r",
+  "url": "mongodb://localhost:27017/",
+  "host": "127.0.0.1",
+  "port": 27017,
+  "user": "",
+  "password": "",
+  "database": "restaurant",
   "useNewUrlParser": true
 }
